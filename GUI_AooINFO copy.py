@@ -3,7 +3,6 @@ import os
 import win32com.client
 import datetime
 import openpyxl
-from openpyxl import load_workbook
 
 # ウィンドウの内容を定義する
 layout = [  [sg.Text("次の催事の開催の土曜日は何日？")],     
