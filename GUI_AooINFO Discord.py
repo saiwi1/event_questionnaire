@@ -1,5 +1,6 @@
 import PySimpleGUI as sg                                 
 from discordwebhook import Discord
+import datetime
 
 dt_now = datetime.datetime.now()
 dt_win = dt_now.strftime('%Y年%m月%d日')
@@ -45,4 +46,4 @@ while True:
 
 
 # 画面から削除して終了
-window.close()                                  #パート 5 - ウィンドウを閉じる
+window.close() 
