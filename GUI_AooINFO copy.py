@@ -6,12 +6,12 @@ import openpyxl
 from openpyxl import load_workbook
 
 # ウィンドウの内容を定義する
-layout = [  [sg.Text("次のオシリスの開催の土曜日は何日？")],     
+layout = [  [sg.Text("次の催事の開催の土曜日は何日？")],     
             [sg.Input(key='-DATE-')],
             [sg.Text(size=(55,1), key='-OUTPUT-')],
             [sg.Button('この日だ！'),sg.Button('終了')]] 
 # ウィンドウを作成する
-window = sg.Window('オシリス案内の準備', layout)      
+window = sg.Window('催事案内の準備', layout)      
 while True:
     event, values = window.read()
 
